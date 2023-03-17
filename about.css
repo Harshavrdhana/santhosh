@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.welcome{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("WhatsApp\ Image\ 2023-03-16\ at\ 16.58.40.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 45px;
+    padding-top:15px;
+    padding-left: 25px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+.content {
+    font-size: 23px;
+    padding-right: 20px;
+    padding-top: 15px;
+    font-family: monospace;
+    
+}
+.content a{
+    padding-right:20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.content a:hover{
+    color: rgb(146, 146, 234);
+}
+.about{
+    margin: 0px 200px;
+    margin-top: 50px;
+}
+.about h1{
+    font-family: monospace;
+}
+.about p{
+    padding:20px 150px ;
+    font-family: monospace;
+    font-size: large;
+}
+.members{
+    margin: 10px 360px;
+    background-color: rgb(207, 207, 207);
+    display: flex;
+    justify-content: space-between;
+}
+.team  {
+    padding: 20px 30px;
+    font-family: monospace;
+}
+.team ul{
+    font-size: large;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-family: monospace;
+}
+.team h3{
+    font-size: larger;
+}
+.team li {
+    padding-bottom: 10px;
+}
+.team li a {
+    text-decoration: none;
+    color: black;
+}
+.team p{
+    display: flex;
+    padding-top: 20px;
+}
+.team a{
+    text-decoration: none;
+}
+.contact{
+    margin: 40px 200px;
+}
+.contact h1{
+    font-family: monospace;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+.links a{
+    padding: 20px 30px;
+}
+.thank{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
